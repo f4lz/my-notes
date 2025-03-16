@@ -1,0 +1,17 @@
+.link {
+  font-family: 'Montserrat', sans-serif;
+  color: var(--color-green-light);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+  transition: 0.2s;
+  background: none;
+  padding: 0;
+  border: none;
+  cursor: pointer;
+
+  &:hover {
+    color: var(--color-white);
+    transition: 0.2s;
+  }
+}

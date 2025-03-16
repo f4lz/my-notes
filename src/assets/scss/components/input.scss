@@ -1,0 +1,29 @@
+input {
+  font-family: 'Montserrat', sans-serif;
+  position: relative;
+  outline: none;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: 0%;
+  padding: 22.5px 28px;
+  border-radius: 36px;
+  border: none;
+
+  &:focus {
+    outline: 2px solid var(--color-green-light);
+  }
+
+  &:active {
+    color: var(--color-dark);
+    outline: 2px solid var(--color-green-light);
+  }
+
+  &::placeholder {
+    color: var(--color-gray);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0%;
+  }
+}

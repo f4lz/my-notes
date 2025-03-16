@@ -1,0 +1,36 @@
+.button {
+  font-family: 'Montserrat', sans-serif;
+  display: flex;
+  column-gap: 12px;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 24px;
+  background-color: var(--color-green-light);
+  border-radius: 32px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 32px;
+  letter-spacing: 0%;
+  border: none;
+  color: var(--color-white);
+  flex-shrink: 0;
+  transition: 0.2s;
+  cursor: pointer;
+
+  &:hover {
+    background-color: var(--color-green-middle);
+    transition: 0.2s;
+  }
+
+  &:active {
+    background-color: var(--color-green-dark);
+  }
+
+  &[disabled] {
+    background-color: var(--color-gray);
+  }
+
+  &--rounded {
+    padding: 20px;
+  }
+}
